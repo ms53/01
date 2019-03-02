@@ -1,0 +1,11 @@
+menuSide menuSide = new menuSide();
+
+void setup() {
+  size(1000,500);
+  
+}
+
+void draw() {
+  background(255);
+  menuSide.run();
+}
